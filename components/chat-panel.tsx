@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'How to design',
+      subheading: 'a fibonacci code',
+      message: `How to design a fibonacci code?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Solve this problem',
+      subheading: 'and provide the pseudocode',
+      message: 'Solve this problem and provide the pseudocode'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Teach me how',
+      subheading: 'to reverse a linked list',
+      message: `Teach me how to reverse a linked list`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'Give me a',
+      subheading: `problem to solve`,
+      message: `Give me a problem to solve`
     }
   ]
 
