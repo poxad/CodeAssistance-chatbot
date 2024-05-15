@@ -1,6 +1,6 @@
 <a href="https://chat.vercel.ai/">
   <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://chat.vercel.ai/opengraph-image.png">
-  <h1 align="center">Code Assistant</h1>
+  <h1 align="center">Next.js AI Chatbot</h1>
 </a>
 
 <p align="center">
@@ -45,7 +45,7 @@ Follow the steps outlined in the [quick start guide](https://vercel.com/docs/sto
 
 Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
 
-## Running locally
+## Running locally (DO NOT FOLLOW THIS, FOLLOW THE STEP AFTER THIS)
 
 You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
 
@@ -60,12 +60,17 @@ pnpm install
 pnpm dev
 ```
 
+## How to run the code, follow the steps below
+```bash
+npm i
+npm i -g vercel
+npm run dev
+```
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
 
-## Authors
+## After cloning, there will be an error "missing secret ..." , do as i mention below
 
-This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from:
+ID: Bikin file baru namanya ".env" di dalam /ui lalu didalam file nya paste text yang gw kirim di grup line
 
-- Jared Palmer ([@jaredpalmer](https://twitter.com/jaredpalmer)) - [Vercel](https://vercel.com)
-- Shu Ding ([@shuding\_](https://twitter.com/shuding_)) - [Vercel](https://vercel.com)
-- shadcn ([@shadcn](https://twitter.com/shadcn)) - [Vercel](https://vercel.com)
+ENG: Create an ".env" file in /ui and paste the text i sent in the line group starting with this "# You must first activate a Billing Account here: https://platform.openai.com/account/billing/overview"
+
