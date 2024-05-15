@@ -1,6 +1,6 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://imgur.com/a/zBX59gp">
-  <h1 align="center">Code Assistant AI Chatbot</h1>
+![image](https://github.com/samueldharma/Code-Assistant/assets/132459662/f749c8b5-3a66-4ba2-a207-463831e36c91)<a href="https://chat.vercel.ai/">
+  <img alt="Code Assistant Chatbot" src="https://imgur.com/a/zBX59gp">
+  <h1 align="center">Code Assistant Chatbot</h1>
 </a>
 
 <p align="center">
